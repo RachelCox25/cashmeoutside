@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cash</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="functions.js"></script>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div class="jumbotron">
+  <h1>Cash Me Ousside</h1>      
+  <p>See what USD is equivalent to in other currencies.</p>
+</div>      
+
+
+
+<div class="row">
+    <div class="col-lg-4 col-lg-offset-4">
+        <div class="input-group">
+            <input type="text" class="form-control" id = "input" placeholder="$" /> 
+            <span class="input-group-btn">
+                <button onclick="calculate()" class="btn btn-default" type="button">Calculate!</button>
+            </span>
+        </div>
+    </div>
+</div>
+
+<h4 id="euro">Euros: 0</h4>
+<h4 id="pound">Pounds: 0</h4>
+<h4 id="peso">Pesos: 0</h4>
+<h4 id="bitcoin">Bitcoin: 0</h4>
+
+
+
+</body>
+</html>
